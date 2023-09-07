@@ -36,7 +36,7 @@ const EditProfile = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3000/api/update-profile", {
+      const response = await fetch("https://sowedane.onrender.com/api/update-profile", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

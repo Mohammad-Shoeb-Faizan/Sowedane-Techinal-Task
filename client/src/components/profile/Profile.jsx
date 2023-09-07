@@ -13,7 +13,7 @@ function Profile() {
     const token = localStorage.getItem("token");
 
     axios
-      .get("http://localhost:3000/api/myprofile", {
+      .get("https://sowedane.onrender.com/api/myprofile", {
         headers: {
           Authorization: token,
         },
