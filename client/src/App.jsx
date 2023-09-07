@@ -5,7 +5,7 @@ import Signin from "./components/auth/Signin";
 import Signup from "./components/auth/Signup";
 import EditProfile from "./components/profile/EditProfile";
 import Profile from "./components/profile/Profile";
-import PrivateRoutes from "../PrivateRoutes";
+import PrivateRoutes from "./PrivateRoutes";
 
 function App() {
   return (
