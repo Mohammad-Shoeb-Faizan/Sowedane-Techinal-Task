@@ -41,7 +41,7 @@ mongoose
   });
 
 app.get("/", (req, res) => {
-  res.send("Hello, Express with CORS and .env!");
+  res.send("Hello, SOWEDANE");
 });
 
 app.use("/api", signupRoute);
